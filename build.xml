@@ -11,11 +11,19 @@
 			classpath="build/classes" destdir="build/examples" />
 	</target>
 
-	<target name="jar" depends="compile">
+	<target name="jar-all" depends="compile">
 		<jar destfile="dist/java_websocket.jar">
 			<fileset dir="build/classes" includes="**/*.class" />
 		</jar>
 	</target>
+
+	<target name="jar-client" depends="compile">
+		<jar destfile="dist/java_websocket_client.jar">
+			<fileset dir="build/classes" includes="**/*.class" excludes="**/server/*.class" />
+		</jar>
+	</target>
+
+	<target name="jar" depends="jar-all,jar-client"/>
 
 	<target name="doc">
 		<delete dir="doc" />
