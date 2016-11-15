@@ -36,9 +36,9 @@ The ant targets are: ```compile```, ```jar```, ```doc``` and ```clean```
 To use maven just add this dependency to your pom.xml:
 ```xml
 <dependency>
-    <groupId>org.java-websocket</groupId>
+    <groupId>io.ably</groupId>
     <artifactId>Java-WebSocket</artifactId>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
 </dependency> 
 ```
 
