@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ck1125/Java-WebSocket.png?branch=master)](https://travis-ci.org/ck1125/Java-WebSocket)
+[ ![Bintray](https://img.shields.io/bintray/v/ably-io/ably/ably-java.svg) ](https://bintray.com/ably-io/ably-forks/Java-Websocket/_latestVersion)
 
 #Java WebSockets
 
