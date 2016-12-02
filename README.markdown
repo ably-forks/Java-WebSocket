@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/ck1125/Java-WebSocket.png?branch=master)](https://travis-ci.org/ck1125/Java-WebSocket)
-Java WebSockets
-===============
+
+#Java WebSockets
 
 This repository contains a barebones WebSocket server and client implementation
 written in 100% Java. The underlying classes are implemented `java.nio`, which allows for a
